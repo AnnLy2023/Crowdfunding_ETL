@@ -1,0 +1,41 @@
+Initial text file used to create ERD diagram
+
+campaign
+-
+cf_id INT PK
+contact_id INT FK >- contacts.contact_id
+company_name VARCHAR(50)
+description VARCHAR(200)
+goal numeric
+pledged numeric 
+outcome VARCHAR(20)
+backers_count INT
+country VARCHAR(50)
+currency VARCHAR(10)
+launch_date DATE
+end_date DATE
+category_id VARCHAR(10) FK >- category.category_id
+subcategory_id VARCHAR(10) FK >- subcategory.subcategory_id
+last_updated default localtimestamp
+
+
+category
+-
+category_id varchar(10) PK
+category varchar(20)
+last_updated default localtimestamp
+
+subcategory
+-
+subcategory_id varchar(10) PK
+subcategory VARCHAR(50)
+last_updated default localtimestamp
+
+contacts
+-
+contact_id INT PK
+first_name VARCHAR(50)
+last_name VARCHAR(50)
+email VARCHAR(50)
+last_updated default localtimestamp
+
