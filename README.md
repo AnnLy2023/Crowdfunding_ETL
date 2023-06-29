@@ -4,39 +4,39 @@ For the ETL mini project, we will use the Crowdfunding database provided to prac
 
 The following deliverables are included:
 1. JUPYTER NOTEBOOK for TRANSFORMATION
-	- Starter_Files\ETL_Mini_Project_Starter_Code-Group_01.ipynb
+	- ETL_Mini_Project_Starter_Code-Group_01.ipynb
 2. 2 XLSX files from the RESOURCES - INPUT DATA we used for EXTRACTION
-	- Starter_Files\Resources\contacts.xlsx
-	- Starter_Files\Resources\crowdfunding.xlsx
+	- contacts.xlsx
+	- crowdfunding.xlsx
 3. 4 CSVs - created in the Transformation notebook
-	- Starter_Files\Resources\campaign.csv
-	- Starter_Files\Resources\category.csv
-	- Starter_Files\Resources\contacts.csv
-	- Starter_Files\Resources\subcategory.csv
+	- campaign.csv
+	- category.csv
+	- contacts.csv
+	- subcategory.csv
 4. 2nd Jupyter Notebook - READ in the CSVs and write them to the database
-	- Starter_Files\import_CSV_into_pgadmin4_by_jupyter.ipynb
+	- import_CSV_into_pgadmin4_by_jupyter.ipynb
 5. ERD image from QBD
-	- Starter_Files\crowdfunding_db.png
+	- crowdfunding_db.png
 6. txt, text used to create the diagram
-	- Starter_Files\ERD_text_file_draft.txt
+	- ERD_text_file_draft.txt
 7. ERD documentation
-	- Starter_Files\crowdfunding_db.pdf
+	- crowdfunding_db.pdf
 8. CREATE TABLE/SCHEMA .SQL file
-	- Starter_Files\crowdfunding_db.sql
+	- crowdfunding_db.sql
 9. QUERIES .SQL - 3 example queries using joins and aggregations
-	- Starter_Files\sql_to_jupyter_queries.ipynb
-	- Starter_Files\Resources\example_queries.sql
+	- sql_to_jupyter_queries.ipynb
+	- example_queries.sql
 	SCREENSHOTS
-	- Starter_Files\Resources\campaign_screenshot.PNG
-	- Starter_Files\Resources\category_screenshot.PNG
-	- Starter_Files\Resources\contacts_screenshot.PNG
-	- Starter_Files\Resources\subcategory_screenshot.PNG
-	- Starter_Files\Resources\sample_query_screenshot_01.PNG
-	- Starter_Files\Resources\sample_query_screenshot_02.PNG
-	- Starter_Files\Resources\sample_query_screenshot_03.PNG
-	- Starter_Files\Resources\sample_query_screenshot_04.PNG
+	- campaign_screenshot.PNG
+	- category_screenshot.PNG
+	- contacts_screenshot.PNG
+	- subcategory_screenshot.PNG
+	- sample_query_screenshot_01.PNG
+	- sample_query_screenshot_02.PNG
+	- sample_query_screenshot_03.PNG
+	- sample_query_screenshot_04.PNG
 10. 3rd Jupyter Notebook - connect to the database with sqlalchemy and execute a query and visualize the data with at least one graph
-	- Starter_Files\sql_to_jupyter_queries.ipynb
+	- sql_to_jupyter_queries.ipynb
 	VISUALS
-	- Starter_Files\Category_vs_Outcome_Counts.png
-	- Starter_Files\lognormal_percent_scatter.png
+	- Category_vs_Outcome_Counts.png
+	- lognormal_percent_scatter.png
