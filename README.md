@@ -1,6 +1,7 @@
 # Crowdfunding_ETL
 Project 2 
-For the ETL mini project, we will use the Crowdfunding database provided to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After we've transformed the data, we'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, we'll upload the CSV file data into a Postgres database.
+For the ETL mini project, we use the Crowdfunding database provided to practice building an ETL pipeline using Python, Pandas, and either Python dictionary methods or regular expressions to extract and transform the data. After we've transformed the data, we'll create four CSV files and use the CSV file data to create an ERD and a table schema. Finally, we'll upload the CSV file data into a Postgres database. 
+Real world applications: utilizing the data given, we were able to identify which projects were succeed or fail based on number of backers and the amount pledged for the projects. 
 
 The following deliverables are included:
 1. JUPYTER NOTEBOOK for TRANSFORMATION
