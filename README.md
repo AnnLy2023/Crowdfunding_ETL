@@ -38,6 +38,7 @@ The following deliverables are included:
 	- sample_query_screenshot_04.PNG
 10. 3rd Jupyter Notebook - connect to the database with sqlalchemy and execute a query and visualize the data with at least one graph
 	- sql_to_jupyter_queries.ipynb
-	VISUALS
+	
+ 	VISUALS
 	- Category_vs_Outcome_Counts.png
 	- lognormal_percent_scatter.png
